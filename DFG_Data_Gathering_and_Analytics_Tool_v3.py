@@ -24,13 +24,12 @@ from oauth2client.tools import argparser
 #-----------------------------------------------------------------------
 # load your Twitter API credentials 
 #-----------------------------------------------------------------------
-config = {"access_key":"113701493-Pwv4zT3EiIvcU0b9JPmVczNCUS0CYTmkCBfo3Tup","access_secret":"e5WI3wq3P1HA8B8WNofl68hozcAThgtye9mtPExdyEY8S",
-"consumer_key":"4OuVn79LRAi77XKegbMsWBtHx","consumer_secret":"Rc0gexwmJlClkJpiKvn4GGhFzjXPj8dX9LqO4tTikr0l8wme2G"}
+config = {"access_key":"", "access_secret":"", "consumer_key":""}
 twitter = Twitter(auth = OAuth(config["access_key"], config["access_secret"], config["consumer_key"], config["consumer_secret"]))
 #-----------------------------------------------------------------------
 # Set Youtube DEVELOPER_KEY to the API key value from the APIs & auth > Registered apps
 # Please ensure that you have enabled the YouTube Data API for your project.
-DEVELOPER_KEY = "AIzaSyBf9l972dS9ezI3S3uD6AdneIrFsFUhLW0"
+DEVELOPER_KEY = "put your developer key"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
